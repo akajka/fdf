@@ -1,12 +1,20 @@
 # Fiel de Fier
 
-> Subtitle or Short Description Goes Here
+## Table of Contents (Optional)
 
-> ideally one sentence
+> If you're `README` has a lot of info, section headers might be nice.
 
-> include terms/tags that can be searched
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
 
-**Badges will go here**
+---
+
+**About project**
 
 - build status
 - issues (waffle.io maybe)
@@ -40,20 +48,6 @@
 
 ---
 
-## Table of Contents (Optional)
-
-> If you're `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
-
----
 
 ## Installation
 
@@ -95,5 +89,5 @@ $ make fclean
 
 - **Can I run the project on Windows?**
     - No!
-- **Can I run the project using my maps?**
+- **Can I create my own maps?**
     - Yes, for that you have to create your own file with '.fdf' extention, or clone Map generator 'https://github.com/jgigault/42MapGenerator.git'.
