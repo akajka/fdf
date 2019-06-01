@@ -14,7 +14,7 @@
 
 ![Recordit GIF](http://g.recordit.co/gx9TAVBBAV.gif)
 
-![Screenshot](Screen Shot vietnam.png)
+![Screenshot](vietnam.png)
 
 <!-- **Vietnam map manipulations + meme bonus**
 
