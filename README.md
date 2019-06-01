@@ -1,42 +1,14 @@
 # Fiel de Fier
 
-## Table of Contents (Optional)
-
-> If you're `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
----
-
 **About project**
 
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
-- slack
-- downloads
-- gitter chat
-- license
-- etc.
-
-> Tips
-
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
-
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
+- Lines are drawn using Wu's algorithm
+- Linear gradient
+- 3D rotation
+- Parallel projection
+- Zoom
+- Reads and applies colors from '.fdf' maps
+- Extra window for meme bonus
 
 **FdF manipulations**
 
@@ -47,7 +19,6 @@
 ![Recordit GIF](http://g.recordit.co/4J3VDbQ1d6.gif)
 
 ---
-
 
 ## Installation
 
