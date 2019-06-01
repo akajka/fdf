@@ -6,7 +6,7 @@
 #    By: nnovikov <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/29 13:23:34 by nnovikov          #+#    #+#              #
-#    Updated: 2019/03/29 13:23:38 by nnovikov         ###   ########.fr        #
+#    Updated: 2019/06/01 15:39:14 by nnovikov         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,12 +35,12 @@ SRC_C =	wu.c \
 SRC_O = $(addprefix objects/,$(SRC_C:.c=.o))
 
 $(DIR)/%.o: %.c 
-	@gcc $(FLAGS) -o $@ -c $<
+	gcc $(FLAGS) -o $@ -c $<
 
 all: $(NAME)
 
 $(DIR):
-	@mkdir -p $(DIR)
+	mkdir -p $(DIR)
 
 $(NAME): $(DIR) $(SRC_O)
 	make -C libft/
