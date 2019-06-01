@@ -1,4 +1,4 @@
-# Repository Title Goes Here
+# Fiel de Fier
 
 > Subtitle or Short Description Goes Here
 
@@ -30,13 +30,13 @@
 - Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
 - For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
 
-**Recordit**
+**FdF manipulations**
 
 ![Recordit GIF](http://g.recordit.co/gx9TAVBBAV.gif)
 
-**ttystudio**
+**Vietnam map manipulations + meme bonus**
 
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
+![Recordit GIF](http://g.recordit.co/4J3VDbQ1d6.gif)
 
 ---
 
@@ -55,25 +55,9 @@
 
 ---
 
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
-
----
-
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- You have to download Minilibx library to run FdF on your Mac.
 
 ### Clone
 
@@ -81,20 +65,28 @@ let generateProject = project => {
 
 ### Setup
 
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
+> run the project using Makefile feature
 
 ```shell
-$ brew update
-$ brew install fvcproductions
+$ make
 ```
 
-> now install npm and bower packages
+> now you can run executable file 'fdf' with optional map
 
 ```shell
-$ npm install
-$ bower install
+$ ./fdf maps/42.fdf
+```
+
+> you can clean a workspace of object files, created during compilation
+
+```shell
+$ make clean
+```
+
+> and also delete every file created during compilation
+
+```shell
+$ make fclean
 ```
 
 ---
@@ -103,3 +95,5 @@ $ bower install
 
 - **Can I run the project on Windows?**
     - No!
+- **Can I run the project using my maps?**
+    - Yes, for that you have to create your own file with '.fdf' extention, or clone Map generator 'https://github.com/jgigault/42MapGenerator.git'.
