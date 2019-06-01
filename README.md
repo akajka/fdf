@@ -14,6 +14,8 @@
 
 ![Recordit GIF](http://g.recordit.co/gx9TAVBBAV.gif)
 
+**Vietnam map implementation using isometric projection**
+
 ![Screenshot](vietnam.png)
 
 <!-- **Vietnam map manipulations + meme bonus**
